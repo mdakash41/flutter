@@ -742,7 +742,7 @@ class DropdownButtonHideUnderline extends InheritedWidget {
 ///
 /// This sample shows a `DropdownButton` with a large arrow icon,
 /// purple text style, and bold purple underline, whose value is one of "One",
-/// "Two", "Free", or "Four".
+/// "Two", "Three", or "Four".
 ///
 /// ![](https://flutter.github.io/assets-for-api-docs/assets/material/dropdown_button.png)
 ///
@@ -768,7 +768,7 @@ class DropdownButtonHideUnderline extends InheritedWidget {
 ///         dropdownValue = newValue!;
 ///       });
 ///     },
-///     items: <String>['One', 'Two', 'Free', 'Four']
+///     items: <String>['One', 'Two', 'Three', 'Four']
 ///       .map<DropdownMenuItem<String>>((String value) {
 ///         return DropdownMenuItem<String>(
 ///           value: value,
@@ -979,7 +979,7 @@ class DropdownButton<T> extends StatefulWidget {
   /// that is different than its menu items.
   ///
   /// ```dart
-  /// List<String> options = <String>['One', 'Two', 'Free', 'Four'];
+  /// List<String> options = <String>['One', 'Two', 'Three', 'Four'];
   /// String dropdownValue = 'One';
   ///
   /// @override
